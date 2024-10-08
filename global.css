@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sub-nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #6666;
+  list-style: none;
+  gap: 40px;
+  padding-right: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+nav {
+  background-color: rgb(83, 83, 83);
+  padding-right: 20px;
+  color: rgb(255, 255, 255);
+  height: 120px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 40px;
+  font-weight: bold;
+  font-size: 15px;
+}
